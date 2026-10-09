@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Espresso — лаунж-кафе та мангал-меню в Івано-Франківську</title>
+<meta name="description" content="Espresso — затишне лаунж-кафе в Івано-Франківську: мангал-меню, бар, десерти, винна карта. Розумні ціни. Щодня 8:00–23:00.">
+<meta name="theme-color" content="#0e0c0a">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E☕%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Espresso","telephone":"+380950936797","address":{"@type":"PostalAddress","streetAddress":"вулиця Довга, 6","addressLocality":"Івано-Франківськ","addressCountry":"UA"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"10:00","closes":"23:00"}]}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="ph" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+</svg>
+<i id="pg"></i>
+
+<header id="hd">
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="Espresso">esp<i>re</i>sso</a>
+    <nav class="links" aria-label="Основна навігація">
+      <a href="#about">Переваги</a><a href="#menu">Меню</a><a href="#how">Як це працює</a><a href="#trust">Про нас</a><a href="#faq">FAQ</a><a href="#contacts">Контакти</a>
+    </nav>
+    <a class="btn btn-p btn-sm" href="#book">Забронювати стіл <svg class="i go"><use href="#ar"/></svg></a>
+    <button class="burger" id="bg" aria-label="Відкрити меню" aria-expanded="false"><i></i></button>
+  </div>
+</header>
+<div class="mob" id="mob">
+  <a href="#about">Переваги</a><a href="#menu">Меню</a><a href="#how">Як це працює</a><a href="#trust">Про нас</a><a href="#faq">FAQ</a><a href="#contacts">Контакти</a>
+  <a class="btn btn-p" href="#book">Забронювати стіл <svg class="i go"><use href="#ar"/></svg></a>
+</div>
+
+<main id="top">
+<!-- 1. HERO -->
+<section class="hero">
+  <img class="hero-bg" src="images/hero.jpg" alt="" fetchpriority="high">
+  <div class="wrap hero-g">
+    <div>
+      <div class="kicker rvl">Лаунж-кафе · Івано-Франківськ</div>
+      <h1 class="rvl" style="--d:100ms">Мангал, бар і десерти <em>в неймовірному затишку</em></h1>
+      <p class="sub rvl" style="--d:200ms">Espresso — місце, де смачно, спокійно й без переплат: працюємо щодня з 8:00 до 23:00.</p>
+      <div class="cta rvl" style="--d:300ms">
+        <a class="btn btn-p" href="#book">Забронювати стіл <svg class="i go"><use href="#ar"/></svg></a>
+        <a class="btn btn-g" data-tel href="tel:"><svg class="i"><use href="#ph"/></svg> Зателефонувати</a>
+      </div>
+      <div class="trust rvl" style="--d:420ms"><span>Розумні ціни</span><span>Мангал на відкритому вогні</span><span>У вихідні з 10:00</span></div>
+    </div>
+    <div class="shot rvl" style="--d:250ms">
+      <div class="arch"><img src="images/dessert.jpg" alt="Чізкейк з персиком і ягідним соусом від Espresso"></div>
+      <div class="seal" aria-hidden="true"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="58" fill="#0e0c0a" fill-opacity=".85" stroke="rgba(245,239,230,.2)"/><defs><path id="cp" d="M60,60 m-43,0 a43,43 0 1,1 86,0 a43,43 0 1,1 -86,0"/></defs><g class="rot"><text font-size="10" font-weight="600" fill="currentColor"><textPath href="#cp" textLength="262" lengthAdjust="spacing">МАНГАЛ-МЕНЮ · ESPRESSO · </textPath></text></g><g transform="translate(42 42) scale(1.5)" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1 3 4 4.5 4 8.5A4 4 0 0 1 12 16a4 4 0 0 1-4-4.5c0-1.6.7-2.5 1.5-3.5.3 1.2 1 1.8 1.6 2C11 7.5 11 5 12 3Z"/><path d="M7 21h10M9 18h6"/></g></svg></div>
+      <div class="badge" id="status"><span class="dot"></span><span id="stxt">Лаунж-кафе · Івано-Франківськ</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. ПЕРЕВАГИ -->
+<section id="about" class="alt">
+  <div class="wrap about-g">
+    <div class="media rvl">
+      <img src="images/interior.jpg" alt="Інтер’єр Espresso: цегла, дерево, м’які крісла" loading="lazy">
+      <div class="float"><span>Щодня<br>у вихідні з 10:00</span><b>8:00–23:00</b></div>
+    </div>
+    <div>
+      <div class="head" style="margin-bottom:0">
+        <div class="kicker rvl">Чому Espresso</div>
+        <h2 class="rvl" style="--d:80ms">Місце, куди <em>повертаються</em></h2>
+        <p class="lead rvl" style="--d:160ms">Простір, де однаково приємно випити ранкову каву, пообідати з колегами й провести вечір із друзями.</p>
+      </div>
+      <div class="feat">
+        <div class="fi spot rvl"><div class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M4 11h13v4a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-4Z"/><path d="M17 12h1.5a2.5 2.5 0 0 1 0 5H17M8 3c-1 1.5 1 2.5 0 4M12 3c-1 1.5 1 2.5 0 4"/></svg></div><h3>Неймовірна атмосфера</h3><p>Цегла, дерево, тепле світло й акваріум — інтер’єр, у якому одразу видихаєш.</p></div>
+        <div class="fi spot rvl" style="--d:80ms"><div class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.8 9.2c-.5-1-1.6-1.4-2.8-1.4-1.5 0-2.6.8-2.6 2s1 1.7 2.6 2.1 2.8.9 2.8 2.2-1.2 2-2.8 2c-1.3 0-2.4-.5-2.9-1.5M12 6v2M12 16v2"/></svg></div><h3>Розумні ціни</h3><p>Якісні страви та напої за чесну вартість — без переплат за гучну назву.</p></div>
+        <div class="fi spot rvl" style="--d:160ms"><div class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 3c1 3 4 4.5 4 8.5A4 4 0 0 1 12 16a4 4 0 0 1-4-4.5c0-1.6.7-2.5 1.5-3.5.3 1.2 1 1.8 1.6 2C11 7.5 11 5 12 3Z"/><path d="M7 21h10M9 18h6"/></svg></div><h3>Мангал-меню</h3><p>Страви на вогні з сезонних продуктів — соковито, ароматно, по-справжньому.</p></div>
+        <div class="fi spot rvl" style="--d:240ms"><div class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div><h3>Зручний графік</h3><p>Щодня з 8:00 до 23:00, у вихідні — з 10:00. Є час для кожного настрою.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. КАТАЛОГ -->
+<section id="menu">
+  <div class="wrap menu-g">
+    <div class="menu-l">
+      <div class="kicker rvl">Меню</div>
+      <h2 class="rvl" style="--d:80ms">Що в нас <em>смачно</em></h2>
+      <p class="lead rvl" style="--d:160ms">Від холодних закусок до винної карти — обирайте розділ і дивіться актуальне меню.</p>
+      <div class="media rvl"><img src="images/dessert.jpg" alt="Чізкейк з персиком і ягідним соусом" loading="lazy"></div>
+      <button class="btn btn-p rvl" data-menu>Відкрити повне меню <svg class="i go"><use href="#ar"/></svg></button>
+    </div>
+    <div class="mlist rvl">
+      <button class="mrow hot" data-menu><span class="n">01</span><span class="t">Espresso Мангал меню<small>Фірмовий розділ</small></span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">02</span><span class="t">Бар</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">03</span><span class="t">Холодні закуски</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">04</span><span class="t">Гарячі закуски</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">05</span><span class="t">Салати</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">06</span><span class="t">Гарніри</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">07</span><span class="t">Перші страви</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">08</span><span class="t">Десерти</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">09</span><span class="t">Гарячі напої</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">10</span><span class="t">Холодні напої</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+      <button class="mrow" data-menu><span class="n">11</span><span class="t">Винна карта</span><span class="arr"><svg class="i"><use href="#ar"/></svg></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- 4. ЯК ЦЕ ПРАЦЮЄ -->
+<section id="how" class="alt">
+  <div class="wrap">
+    <div class="head"><div class="kicker rvl">Як це працює</div><h2 class="rvl" style="--d:80ms">Від бронювання до смаку — <em>4 кроки</em></h2></div>
+    <div class="steps">
+      <div class="st rvl"><span class="num">01</span><h3>Оберіть час</h3><p>Передивіться меню й вирішіть, коли вам зручно завітати.</p></div>
+      <div class="st rvl" style="--d:100ms"><span class="num">02</span><h3>Забронюйте стіл</h3><p>Заповніть форму нижче або зателефонуйте — це займе хвилину.</p></div>
+      <div class="st rvl" style="--d:200ms"><span class="num">03</span><h3>Приходьте</h3><p>Ваш столик уже чекає. Вхід зі скляними дверима, є літня зона надворі.</p></div>
+      <div class="st rvl" style="--d:300ms"><span class="num">04</span><h3>Насолоджуйтесь</h3><p>Смачна їжа, музика, тепло — і жодного поспіху.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ДОВІРА (тільки реальні дані; відгуки/рейтинг підставляються з CONFIG) -->
+<section id="trust">
+  <div class="wrap">
+    <div class="head"><div class="kicker rvl">Про нас</div><h2 class="rvl" style="--d:80ms">Реальне місце. <em>Простий візит.</em></h2><p class="lead rvl" style="--d:160ms">Знайдете нас на вулиці Довгій, 6 — приходьте або телефонуйте.</p></div>
+    <div class="tr-g">
+      <div class="tc spot rvl">
+        <div class="tag">01 · Гості</div>
+        <div id="proof"><div class="big">11</div><h3>розділів меню</h3><p class="txt">Від холодних закусок і мангалу до десертів та винної карти — є з чого обрати до будь-якого настрою.</p></div>
+        <div class="acts"><a class="btn btn-g" href="#menu" data-menu>Дивитись меню</a></div>
+      </div>
+      <div class="tc spot rvl" style="--d:100ms">
+        <div class="tag">02 · Реальне місце</div>
+        <div class="pic"><img src="images/facade.jpg" alt="Фасад лаунж-кафе Espresso на вулиці Довгій" loading="lazy"></div>
+        <div class="lines">
+          <div><b>Адреса</b><span data-addr></span></div>
+          <div><b>Телефон</b><a data-tel data-ph href="tel:"></a></div>
+          <div><b>Графік</b>Щодня 8:00–23:00, у вихідні з 10:00</div>
+        </div>
+        <div class="acts"><a class="btn btn-g" data-map target="_blank" rel="noopener">Прокласти маршрут <svg class="i go"><use href="#ar"/></svg></a></div>
+      </div>
+      <div class="tc go spot rvl" style="--d:200ms">
+        <div class="tag">03 · Що далі</div>
+        <h3>Забронювати — це просто</h3>
+        <p class="txt">Вкажіть ім’я, телефон, дату й час — і стіл за вами. Або зателефонуйте, якщо зручніше.</p>
+        <div class="acts"><a class="btn btn-p" href="#book">Забронювати стіл <svg class="i go"><use href="#ar"/></svg></a><a class="btn btn-g" data-tel href="tel:"><svg class="i"><use href="#ph"/></svg> Зателефонувати</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. FAQ -->
+<section id="faq" class="alt">
+  <div class="wrap faq-g">
+    <div class="head"><div class="kicker rvl">FAQ</div><h2 class="rvl" style="--d:80ms">Часті <em>запитання</em></h2></div>
+    <div class="rvl">
+      <details><summary>Який у вас графік роботи?<span class="pl"></span></summary><p>Щодня з 8:00 до 23:00. У вихідні дні (субота та неділя) ми відчиняємось о 10:00.</p></details>
+      <details><summary>Як забронювати стіл?<span class="pl"></span></summary><p>Заповніть форму бронювання на сайті або зателефонуйте нам — підтвердимо вільний столик і час.</p></details>
+      <details><summary>Чи є у вас мангал-меню?<span class="pl"></span></summary><p>Так, це наша фірмова позиція — страви, приготовані на мангалі. Повне меню доступне за кнопкою «Меню».</p></details>
+      <details><summary>Чи є винна карта та бар?<span class="pl"></span></summary><p>Так, у нас є окрема винна карта та барне меню з класичними й авторськими напоями.</p></details>
+      <details><summary>Чи можна прийти з компанією?<span class="pl"></span></summary><p>Звісно! У залі багато м’яких диванів і столів для великих компаній. Для групи краще забронювати заздалегідь.</p></details>
+      <details><summary>Чи є літня тераса?<span class="pl"></span></summary><p>Так, поруч із входом є зона на свіжому повітрі — зателефонуйте, щоб уточнити наявність місць.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 7. КОНТАКТИ -->
+<section id="contacts">
+  <div class="wrap c-g">
+    <div>
+      <div class="kicker rvl">Контакти</div>
+      <h2 class="rvl" style="--d:80ms">Чекаємо <em>на вас</em></h2>
+      <p class="lead rvl" style="--d:160ms">Зателефонуйте або залиште заявку — ми підберемо найкращий столик.</p>
+      <div class="info rvl">
+        <div><span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span><b>Адреса</b><span data-addr></span></span></div>
+        <div><span class="ico"><svg class="i"><use href="#ph"/></svg></span><span><b>Телефон</b><a data-tel data-ph href="tel:"></a></span></div>
+        <div><span class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span><span><b>Графік</b><span>Пн–Пт: 8:00–23:00<br>Сб–Нд: 10:00–23:00</span></span></div>
+      </div>
+      <div class="media rvl"><img src="images/facade.jpg" alt="Фасад лаунж-кафе Espresso" loading="lazy"></div>
+    </div>
+    <form class="form rvl" id="book">
+      <h3>Забронювати стіл</h3>
+      <label>Ваше ім’я<input name="n" required autocomplete="name" placeholder="Андрій"></label>
+      <label>Телефон<input name="p" type="tel" required autocomplete="tel" placeholder="+380 __ ___ __ __"></label>
+      <div class="row">
+        <label>Дата<input name="d" type="date" required></label>
+        <label>Час<input name="t" type="time" min="08:00" max="22:00" value="19:00" required></label>
+      </div>
+      <label>Кількість гостей<select name="g"><option>1–2</option><option selected>3–4</option><option>5–6</option><option>7–10</option><option>10+</option></select></label>
+      <button class="btn btn-p" type="submit">Надіслати заявку <svg class="i go"><use href="#ar"/></svg></button>
+      <a class="btn btn-g" data-tel href="tel:"><svg class="i"><use href="#ph"/></svg> Або зателефонувати</a>
+      <p class="note" id="fnote">Заявка відкриється у вашому месенджері/SMS — відправте її, і ми підтвердимо бронь.</p>
+      <div class="ok" role="status" aria-live="polite">
+        <h3 id="okh">Заявку підготовлено</h3>
+        <p class="txt" id="okp" style="color:var(--mut)"></p>
+        <pre id="okt"></pre>
+        <a class="btn btn-p" id="oksms">Надіслати в SMS</a>
+        <a class="btn btn-g" id="oktg" target="_blank" rel="noopener" hidden>Надіслати в Telegram</a>
+        <button class="btn btn-g" type="button" id="okcp">Скопіювати текст</button>
+        <a class="btn btn-g" data-tel href="tel:"><svg class="i"><use href="#ph"/></svg> Або зателефонувати</a>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> Espresso</span><span data-addr></span></div></footer>
+
+<div class="bar" id="bar">
+  <a class="btn btn-p" href="#book">Забронювати стіл</a>
+  <a class="btn btn-g" data-tel href="tel:" aria-label="Зателефонувати"><svg class="i"><use href="#ph"/></svg></a>
+</div>
+
+<dialog id="dlg">
+  <button class="x" id="dx" aria-label="Закрити">×</button>
+  <h3 id="dtitle">Меню Espresso</h3>
+  <div id="dbody"></div>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
